@@ -22,26 +22,26 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task1.V16
         {
             try
             {
-                int startValue = Convert.ToInt32(textBoxStartVarDSN.Text);
-                int stopValue = Convert.ToInt32(textBoxStopVarDSN.Text);
+                int startValue = Convert.ToInt32(textBoxStartVar_DSN.Text);
+                int stopValue = Convert.ToInt32(textBoxStopVar_DSN.Text);
                 int len = ds.GetMassFunction(startValue, stopValue).Length;
                 double[] valueArray;
                 valueArray = new double[len];
 
                 valueArray = ds.GetMassFunction(startValue, stopValue);
-                textBoxResultDSN.Text = "";
-                textBoxResultDSN.AppendText("+----------+-------------+" + Environment.NewLine);
-                textBoxResultDSN.AppendText("+    X     +     F(x)    |" + Environment.NewLine);
-                textBoxResultDSN.AppendText("+----------+-------------+" + Environment.NewLine);
+                textBoxResult_DSN.Text = "";
+                textBoxResult_DSN.AppendText("+----------+-------------+" + Environment.NewLine);
+                textBoxResult_DSN.AppendText("+    X     +     F(x)    |" + Environment.NewLine);
+                textBoxResult_DSN.AppendText("+----------+-------------+" + Environment.NewLine);
 
                 string str;
                 for (int i = 0; i <= len - 1; i++)
                 {
                     str = String.Format("|{0,5:d}     |  {1, 7:f2}    |", startValue, valueArray[i]);
-                    textBoxResultDSN.AppendText(str + Environment.NewLine);
+                    textBoxResult_DSN.AppendText(str + Environment.NewLine);
                     startValue++;
                 }
-                textBoxResultDSN.AppendText("+----------+-------------+" + Environment.NewLine);
+                textBoxResult_DSN.AppendText("+----------+-------------+" + Environment.NewLine);
                 
             }
             catch
