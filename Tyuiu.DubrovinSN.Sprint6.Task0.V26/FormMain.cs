@@ -23,7 +23,7 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task0.V26
             DataService ds = new DataService();
             try
             {
-                textBoxResultDSN.Text = Convert.ToString(ds.Calculate(Convert.ToInt32(textBoxVarDSN.Text)));
+                textBoxResult_DSN.Text = Convert.ToString(ds.Calculate(Convert.ToInt32(textBoxVar_DSN.Text)));
             }
             catch
             {

@@ -29,169 +29,169 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task0.V26
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBoxConditionDSN = new System.Windows.Forms.GroupBox();
-            this.pictureBoxFormulaDSN = new System.Windows.Forms.PictureBox();
-            this.textBoxTextDSN = new System.Windows.Forms.TextBox();
-            this.groupBoxInputDSN = new System.Windows.Forms.GroupBox();
-            this.labelVarX = new System.Windows.Forms.Label();
-            this.textBoxVarDSN = new System.Windows.Forms.TextBox();
-            this.groupBoxСonclusionDSN = new System.Windows.Forms.GroupBox();
-            this.labelResDSN = new System.Windows.Forms.Label();
-            this.textBoxResultDSN = new System.Windows.Forms.TextBox();
-            this.buttonDone = new System.Windows.Forms.Button();
-            this.buttonHelp = new System.Windows.Forms.Button();
-            this.groupBoxConditionDSN.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormulaDSN)).BeginInit();
-            this.groupBoxInputDSN.SuspendLayout();
-            this.groupBoxСonclusionDSN.SuspendLayout();
+            this.groupBoxCondition_DSN = new System.Windows.Forms.GroupBox();
+            this.pictureBoxFormula_DSN = new System.Windows.Forms.PictureBox();
+            this.textBoxText_DSN = new System.Windows.Forms.TextBox();
+            this.groupBoxInput_DSN = new System.Windows.Forms.GroupBox();
+            this.labelVarX_DSN = new System.Windows.Forms.Label();
+            this.textBoxVar_DSN = new System.Windows.Forms.TextBox();
+            this.groupBoxСonclusion_DSN = new System.Windows.Forms.GroupBox();
+            this.buttonHelp_DSN = new System.Windows.Forms.Button();
+            this.labelRes_DSN = new System.Windows.Forms.Label();
+            this.textBoxResult_DSN = new System.Windows.Forms.TextBox();
+            this.buttonDone_DSN = new System.Windows.Forms.Button();
+            this.groupBoxCondition_DSN.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_DSN)).BeginInit();
+            this.groupBoxInput_DSN.SuspendLayout();
+            this.groupBoxСonclusion_DSN.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBoxConditionDSN
+            // groupBoxCondition_DSN
             // 
-            this.groupBoxConditionDSN.Controls.Add(this.pictureBoxFormulaDSN);
-            this.groupBoxConditionDSN.Controls.Add(this.textBoxTextDSN);
-            this.groupBoxConditionDSN.Location = new System.Drawing.Point(13, 13);
-            this.groupBoxConditionDSN.Name = "groupBoxConditionDSN";
-            this.groupBoxConditionDSN.Size = new System.Drawing.Size(513, 179);
-            this.groupBoxConditionDSN.TabIndex = 0;
-            this.groupBoxConditionDSN.TabStop = false;
-            this.groupBoxConditionDSN.Text = "Условие";
+            this.groupBoxCondition_DSN.Controls.Add(this.pictureBoxFormula_DSN);
+            this.groupBoxCondition_DSN.Controls.Add(this.textBoxText_DSN);
+            this.groupBoxCondition_DSN.Location = new System.Drawing.Point(13, 13);
+            this.groupBoxCondition_DSN.Name = "groupBoxCondition_DSN";
+            this.groupBoxCondition_DSN.Size = new System.Drawing.Size(513, 179);
+            this.groupBoxCondition_DSN.TabIndex = 0;
+            this.groupBoxCondition_DSN.TabStop = false;
+            this.groupBoxCondition_DSN.Text = "Условие";
             // 
-            // pictureBoxFormulaDSN
+            // pictureBoxFormula_DSN
             // 
-            this.pictureBoxFormulaDSN.Image = global::Tyuiu.DubrovinSN.Sprint6.Task0.V26.Properties.Resources.Снимок_экрана_2023_11_30_131058;
-            this.pictureBoxFormulaDSN.Location = new System.Drawing.Point(314, 46);
-            this.pictureBoxFormulaDSN.Name = "pictureBoxFormulaDSN";
-            this.pictureBoxFormulaDSN.Size = new System.Drawing.Size(175, 78);
-            this.pictureBoxFormulaDSN.TabIndex = 1;
-            this.pictureBoxFormulaDSN.TabStop = false;
+            this.pictureBoxFormula_DSN.Image = global::Tyuiu.DubrovinSN.Sprint6.Task0.V26.Properties.Resources.Снимок_экрана_2023_11_30_131058;
+            this.pictureBoxFormula_DSN.Location = new System.Drawing.Point(314, 46);
+            this.pictureBoxFormula_DSN.Name = "pictureBoxFormula_DSN";
+            this.pictureBoxFormula_DSN.Size = new System.Drawing.Size(175, 78);
+            this.pictureBoxFormula_DSN.TabIndex = 1;
+            this.pictureBoxFormula_DSN.TabStop = false;
             // 
-            // textBoxTextDSN
+            // textBoxText_DSN
             // 
-            this.textBoxTextDSN.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBoxTextDSN.Location = new System.Drawing.Point(6, 19);
-            this.textBoxTextDSN.Multiline = true;
-            this.textBoxTextDSN.Name = "textBoxTextDSN";
-            this.textBoxTextDSN.ReadOnly = true;
-            this.textBoxTextDSN.Size = new System.Drawing.Size(302, 135);
-            this.textBoxTextDSN.TabIndex = 0;
-            this.textBoxTextDSN.Text = "Вычислить выражение по фомуле\r\n";
+            this.textBoxText_DSN.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBoxText_DSN.Location = new System.Drawing.Point(6, 19);
+            this.textBoxText_DSN.Multiline = true;
+            this.textBoxText_DSN.Name = "textBoxText_DSN";
+            this.textBoxText_DSN.ReadOnly = true;
+            this.textBoxText_DSN.Size = new System.Drawing.Size(302, 135);
+            this.textBoxText_DSN.TabIndex = 0;
+            this.textBoxText_DSN.Text = "Вычислить выражение по фомуле\r\n";
             // 
-            // groupBoxInputDSN
+            // groupBoxInput_DSN
             // 
-            this.groupBoxInputDSN.Controls.Add(this.labelVarX);
-            this.groupBoxInputDSN.Controls.Add(this.textBoxVarDSN);
-            this.groupBoxInputDSN.Location = new System.Drawing.Point(13, 229);
-            this.groupBoxInputDSN.Name = "groupBoxInputDSN";
-            this.groupBoxInputDSN.Size = new System.Drawing.Size(217, 161);
-            this.groupBoxInputDSN.TabIndex = 1;
-            this.groupBoxInputDSN.TabStop = false;
-            this.groupBoxInputDSN.Text = "Ввод данных";
+            this.groupBoxInput_DSN.Controls.Add(this.labelVarX_DSN);
+            this.groupBoxInput_DSN.Controls.Add(this.textBoxVar_DSN);
+            this.groupBoxInput_DSN.Location = new System.Drawing.Point(13, 229);
+            this.groupBoxInput_DSN.Name = "groupBoxInput_DSN";
+            this.groupBoxInput_DSN.Size = new System.Drawing.Size(217, 161);
+            this.groupBoxInput_DSN.TabIndex = 1;
+            this.groupBoxInput_DSN.TabStop = false;
+            this.groupBoxInput_DSN.Text = "Ввод данных";
             // 
-            // labelVarX
+            // labelVarX_DSN
             // 
-            this.labelVarX.AutoSize = true;
-            this.labelVarX.Location = new System.Drawing.Point(6, 56);
-            this.labelVarX.Name = "labelVarX";
-            this.labelVarX.Size = new System.Drawing.Size(17, 13);
-            this.labelVarX.TabIndex = 1;
-            this.labelVarX.Text = "X:";
+            this.labelVarX_DSN.AutoSize = true;
+            this.labelVarX_DSN.Location = new System.Drawing.Point(6, 56);
+            this.labelVarX_DSN.Name = "labelVarX_DSN";
+            this.labelVarX_DSN.Size = new System.Drawing.Size(17, 13);
+            this.labelVarX_DSN.TabIndex = 1;
+            this.labelVarX_DSN.Text = "X:";
             // 
-            // textBoxVarDSN
+            // textBoxVar_DSN
             // 
-            this.textBoxVarDSN.Location = new System.Drawing.Point(6, 72);
-            this.textBoxVarDSN.Name = "textBoxVarDSN";
-            this.textBoxVarDSN.Size = new System.Drawing.Size(100, 20);
-            this.textBoxVarDSN.TabIndex = 0;
+            this.textBoxVar_DSN.Location = new System.Drawing.Point(6, 72);
+            this.textBoxVar_DSN.Name = "textBoxVar_DSN";
+            this.textBoxVar_DSN.Size = new System.Drawing.Size(100, 20);
+            this.textBoxVar_DSN.TabIndex = 0;
             // 
-            // groupBoxСonclusionDSN
+            // groupBoxСonclusion_DSN
             // 
-            this.groupBoxСonclusionDSN.Controls.Add(this.buttonHelp);
-            this.groupBoxСonclusionDSN.Controls.Add(this.labelResDSN);
-            this.groupBoxСonclusionDSN.Controls.Add(this.textBoxResultDSN);
-            this.groupBoxСonclusionDSN.Controls.Add(this.buttonDone);
-            this.groupBoxСonclusionDSN.Location = new System.Drawing.Point(276, 229);
-            this.groupBoxСonclusionDSN.Name = "groupBoxСonclusionDSN";
-            this.groupBoxСonclusionDSN.Size = new System.Drawing.Size(250, 161);
-            this.groupBoxСonclusionDSN.TabIndex = 2;
-            this.groupBoxСonclusionDSN.TabStop = false;
-            this.groupBoxСonclusionDSN.Text = "Вывод данных";
+            this.groupBoxСonclusion_DSN.Controls.Add(this.buttonHelp_DSN);
+            this.groupBoxСonclusion_DSN.Controls.Add(this.labelRes_DSN);
+            this.groupBoxСonclusion_DSN.Controls.Add(this.textBoxResult_DSN);
+            this.groupBoxСonclusion_DSN.Controls.Add(this.buttonDone_DSN);
+            this.groupBoxСonclusion_DSN.Location = new System.Drawing.Point(276, 229);
+            this.groupBoxСonclusion_DSN.Name = "groupBoxСonclusion_DSN";
+            this.groupBoxСonclusion_DSN.Size = new System.Drawing.Size(250, 161);
+            this.groupBoxСonclusion_DSN.TabIndex = 2;
+            this.groupBoxСonclusion_DSN.TabStop = false;
+            this.groupBoxСonclusion_DSN.Text = "Вывод данных";
             // 
-            // labelResDSN
+            // buttonHelp_DSN
             // 
-            this.labelResDSN.AutoSize = true;
-            this.labelResDSN.Location = new System.Drawing.Point(6, 56);
-            this.labelResDSN.Name = "labelResDSN";
-            this.labelResDSN.Size = new System.Drawing.Size(62, 13);
-            this.labelResDSN.TabIndex = 2;
-            this.labelResDSN.Text = "Результат:";
+            this.buttonHelp_DSN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonHelp_DSN.Location = new System.Drawing.Point(9, 119);
+            this.buttonHelp_DSN.Name = "buttonHelp_DSN";
+            this.buttonHelp_DSN.Size = new System.Drawing.Size(25, 23);
+            this.buttonHelp_DSN.TabIndex = 3;
+            this.buttonHelp_DSN.Text = "?";
+            this.buttonHelp_DSN.UseVisualStyleBackColor = true;
+            this.buttonHelp_DSN.Click += new System.EventHandler(this.buttonHelp_Click);
             // 
-            // textBoxResultDSN
+            // labelRes_DSN
             // 
-            this.textBoxResultDSN.Location = new System.Drawing.Point(6, 72);
-            this.textBoxResultDSN.Name = "textBoxResultDSN";
-            this.textBoxResultDSN.ReadOnly = true;
-            this.textBoxResultDSN.Size = new System.Drawing.Size(100, 20);
-            this.textBoxResultDSN.TabIndex = 1;
+            this.labelRes_DSN.AutoSize = true;
+            this.labelRes_DSN.Location = new System.Drawing.Point(6, 56);
+            this.labelRes_DSN.Name = "labelRes_DSN";
+            this.labelRes_DSN.Size = new System.Drawing.Size(62, 13);
+            this.labelRes_DSN.TabIndex = 2;
+            this.labelRes_DSN.Text = "Результат:";
             // 
-            // buttonDone
+            // textBoxResult_DSN
             // 
-            this.buttonDone.Location = new System.Drawing.Point(51, 119);
-            this.buttonDone.Name = "buttonDone";
-            this.buttonDone.Size = new System.Drawing.Size(75, 23);
-            this.buttonDone.TabIndex = 0;
-            this.buttonDone.Text = "Выполинть";
-            this.buttonDone.UseVisualStyleBackColor = true;
-            this.buttonDone.Click += new System.EventHandler(this.buttonDone_Click);
+            this.textBoxResult_DSN.Location = new System.Drawing.Point(6, 72);
+            this.textBoxResult_DSN.Name = "textBoxResult_DSN";
+            this.textBoxResult_DSN.ReadOnly = true;
+            this.textBoxResult_DSN.Size = new System.Drawing.Size(100, 20);
+            this.textBoxResult_DSN.TabIndex = 1;
             // 
-            // buttonHelp
+            // buttonDone_DSN
             // 
-            this.buttonHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonHelp.Location = new System.Drawing.Point(9, 119);
-            this.buttonHelp.Name = "buttonHelp";
-            this.buttonHelp.Size = new System.Drawing.Size(25, 23);
-            this.buttonHelp.TabIndex = 3;
-            this.buttonHelp.Text = "?";
-            this.buttonHelp.UseVisualStyleBackColor = true;
-            this.buttonHelp.Click += new System.EventHandler(this.buttonHelp_Click);
+            this.buttonDone_DSN.Location = new System.Drawing.Point(51, 119);
+            this.buttonDone_DSN.Name = "buttonDone_DSN";
+            this.buttonDone_DSN.Size = new System.Drawing.Size(75, 23);
+            this.buttonDone_DSN.TabIndex = 0;
+            this.buttonDone_DSN.Text = "Выполинть";
+            this.buttonDone_DSN.UseVisualStyleBackColor = true;
+            this.buttonDone_DSN.Click += new System.EventHandler(this.buttonDone_Click);
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(529, 450);
-            this.Controls.Add(this.groupBoxСonclusionDSN);
-            this.Controls.Add(this.groupBoxInputDSN);
-            this.Controls.Add(this.groupBoxConditionDSN);
+            this.Controls.Add(this.groupBoxСonclusion_DSN);
+            this.Controls.Add(this.groupBoxInput_DSN);
+            this.Controls.Add(this.groupBoxCondition_DSN);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 0 | Вариант 26 | Дубровин С.Н";
-            this.groupBoxConditionDSN.ResumeLayout(false);
-            this.groupBoxConditionDSN.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormulaDSN)).EndInit();
-            this.groupBoxInputDSN.ResumeLayout(false);
-            this.groupBoxInputDSN.PerformLayout();
-            this.groupBoxСonclusionDSN.ResumeLayout(false);
-            this.groupBoxСonclusionDSN.PerformLayout();
+            this.groupBoxCondition_DSN.ResumeLayout(false);
+            this.groupBoxCondition_DSN.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_DSN)).EndInit();
+            this.groupBoxInput_DSN.ResumeLayout(false);
+            this.groupBoxInput_DSN.PerformLayout();
+            this.groupBoxСonclusion_DSN.ResumeLayout(false);
+            this.groupBoxСonclusion_DSN.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBoxConditionDSN;
-        private System.Windows.Forms.PictureBox pictureBoxFormulaDSN;
-        private System.Windows.Forms.TextBox textBoxTextDSN;
-        private System.Windows.Forms.GroupBox groupBoxInputDSN;
-        private System.Windows.Forms.Label labelVarX;
-        private System.Windows.Forms.TextBox textBoxVarDSN;
-        private System.Windows.Forms.GroupBox groupBoxСonclusionDSN;
-        private System.Windows.Forms.Button buttonDone;
-        private System.Windows.Forms.Label labelResDSN;
-        private System.Windows.Forms.TextBox textBoxResultDSN;
-        private System.Windows.Forms.Button buttonHelp;
+        private System.Windows.Forms.GroupBox groupBoxCondition_DSN;
+        private System.Windows.Forms.PictureBox pictureBoxFormula_DSN;
+        private System.Windows.Forms.TextBox textBoxText_DSN;
+        private System.Windows.Forms.GroupBox groupBoxInput_DSN;
+        private System.Windows.Forms.Label labelVarX_DSN;
+        private System.Windows.Forms.TextBox textBoxVar_DSN;
+        private System.Windows.Forms.GroupBox groupBoxСonclusion_DSN;
+        private System.Windows.Forms.Button buttonDone_DSN;
+        private System.Windows.Forms.Label labelRes_DSN;
+        private System.Windows.Forms.TextBox textBoxResult_DSN;
+        private System.Windows.Forms.Button buttonHelp_DSN;
     }
 }
 
