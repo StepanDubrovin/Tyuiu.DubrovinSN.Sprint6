@@ -52,7 +52,7 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task1.V16
 
         private void buttonSpravkaDSN_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 1 выполнил студент ИИПБ-23-3 Дубровин Степан Николаевич","Сообщение", MessageBoxButtons.OK);
+            MessageBox.Show("Таск 1 выполнил студент группы ИИПБ-23-3 Дубровин Степан Николаевич","Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
