@@ -41,7 +41,7 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task0.V26
 
         private void buttonHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 0 выполнил студент группы ИИПБ-23-3 Дубровин Степан Николаевич", "Сообщение", MessageBoxButtons.OK);
+            MessageBox.Show("Таск 0 выполнил студент группы ИИПБ-23-3 Дубровин Степан Николаевич", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
