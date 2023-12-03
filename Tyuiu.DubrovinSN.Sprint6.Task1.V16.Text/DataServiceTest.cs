@@ -30,7 +30,7 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task1.V16.Text
             double[] res;
             res = new double[len];
             res = ds.GetMassFunction(startValue, stopValue);
-            CollectionAssert.AreEqual(valueWaitArray, res); 
+            CollectionAssert.AreEqual(valueWaitArray, res); //
         }
     }
 }
