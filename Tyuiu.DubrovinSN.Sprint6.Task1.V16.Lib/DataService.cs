@@ -19,7 +19,7 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task1.V16.Lib
             for (int x = startValue; x <= stopValue; x++)
             {
 
-                F = Math.Round((Math.Sin(x)) / (x + 1.2) + Math.Cos(x) * 7 * x - 2, 2);
+                F = Math.Round((Math.Sin((double)x)) / ((double)x + 1.2) + Math.Cos((double)x) * 7 * (double)x - 2, 2);
                 valueArray[count] = F;
                 count++;
 
