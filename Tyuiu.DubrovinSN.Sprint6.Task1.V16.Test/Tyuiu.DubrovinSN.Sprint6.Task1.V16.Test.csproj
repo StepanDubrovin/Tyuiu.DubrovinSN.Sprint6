@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DEB2B088-217C-47AD-950E-B6DACE35B5AE}</ProjectGuid>
+    <ProjectGuid>{27EF332A-2DB3-4ABF-934E-D44D21188407}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.DubrovinSN.Sprint6.Task1.V16.Text</RootNamespace>
-    <AssemblyName>Tyuiu.DubrovinSN.Sprint6.Task1.V16.Text</AssemblyName>
+    <RootNamespace>Tyuiu.DubrovinSN.Sprint6.Task1.V16.Test</RootNamespace>
+    <AssemblyName>Tyuiu.DubrovinSN.Sprint6.Task1.V16.Test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -49,7 +49,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataServiceTest.cs" />
+    <Compile Include="DataServiceTets.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

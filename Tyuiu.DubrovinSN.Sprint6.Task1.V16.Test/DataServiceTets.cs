@@ -1,11 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using Tyuiu.DubrovinSN.Sprint6.Task1.V16.Lib;
-
-namespace Tyuiu.DubrovinSN.Sprint6.Task1.V16.Text
+namespace Tyuiu.DubrovinSN.Sprint6.Task1.V16.Test
 {
     [TestClass]
-    public class DataServiceTest
+    public class DataServiceTets
     {
         [TestMethod]
         public void Calc()
@@ -30,7 +29,7 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task1.V16.Text
             double[] res;
             res = new double[len];
             res = ds.GetMassFunction(startValue, stopValue);
-            CollectionAssert.AreEqual(valueWaitArray, res); //
+            CollectionAssert.AreEqual(valueWaitArray, res);
         }
     }
 }
