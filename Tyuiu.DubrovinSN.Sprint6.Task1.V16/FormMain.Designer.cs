@@ -38,11 +38,11 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task1.V16
             this.textBoxStartVar_DSN = new System.Windows.Forms.TextBox();
             this.buttonSpravka_DSN = new System.Windows.Forms.Button();
             this.buttonPerform_DSN = new System.Windows.Forms.Button();
-            this.groupBoxConclusionDSN = new System.Windows.Forms.GroupBox();
+            this.groupBoxConclusion_DSN = new System.Windows.Forms.GroupBox();
             this.textBoxResult_DSN = new System.Windows.Forms.TextBox();
             this.groupBoxСondition_DSN.SuspendLayout();
             this.groupBoxInput_DSN.SuspendLayout();
-            this.groupBoxConclusionDSN.SuspendLayout();
+            this.groupBoxConclusion_DSN.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBoxСondition_DSN
@@ -133,15 +133,15 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task1.V16
             this.buttonPerform_DSN.UseVisualStyleBackColor = false;
             this.buttonPerform_DSN.Click += new System.EventHandler(this.buttonPerformDSN_Click);
             // 
-            // groupBoxConclusionDSN
+            // groupBoxConclusion_DSN
             // 
-            this.groupBoxConclusionDSN.Controls.Add(this.textBoxResult_DSN);
-            this.groupBoxConclusionDSN.Location = new System.Drawing.Point(485, 12);
-            this.groupBoxConclusionDSN.Name = "groupBoxConclusionDSN";
-            this.groupBoxConclusionDSN.Size = new System.Drawing.Size(269, 426);
-            this.groupBoxConclusionDSN.TabIndex = 4;
-            this.groupBoxConclusionDSN.TabStop = false;
-            this.groupBoxConclusionDSN.Text = "Вывод данных:";
+            this.groupBoxConclusion_DSN.Controls.Add(this.textBoxResult_DSN);
+            this.groupBoxConclusion_DSN.Location = new System.Drawing.Point(485, 12);
+            this.groupBoxConclusion_DSN.Name = "groupBoxConclusion_DSN";
+            this.groupBoxConclusion_DSN.Size = new System.Drawing.Size(269, 426);
+            this.groupBoxConclusion_DSN.TabIndex = 4;
+            this.groupBoxConclusion_DSN.TabStop = false;
+            this.groupBoxConclusion_DSN.Text = "Вывод данных:";
             // 
             // textBoxResult_DSN
             // 
@@ -159,7 +159,7 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task1.V16
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(766, 450);
-            this.Controls.Add(this.groupBoxConclusionDSN);
+            this.Controls.Add(this.groupBoxConclusion_DSN);
             this.Controls.Add(this.buttonPerform_DSN);
             this.Controls.Add(this.buttonSpravka_DSN);
             this.Controls.Add(this.groupBoxInput_DSN);
@@ -172,8 +172,8 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task1.V16
             this.groupBoxСondition_DSN.PerformLayout();
             this.groupBoxInput_DSN.ResumeLayout(false);
             this.groupBoxInput_DSN.PerformLayout();
-            this.groupBoxConclusionDSN.ResumeLayout(false);
-            this.groupBoxConclusionDSN.PerformLayout();
+            this.groupBoxConclusion_DSN.ResumeLayout(false);
+            this.groupBoxConclusion_DSN.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -189,7 +189,7 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task1.V16
         private System.Windows.Forms.TextBox textBoxStartVar_DSN;
         private System.Windows.Forms.Button buttonSpravka_DSN;
         private System.Windows.Forms.Button buttonPerform_DSN;
-        private System.Windows.Forms.GroupBox groupBoxConclusionDSN;
+        private System.Windows.Forms.GroupBox groupBoxConclusion_DSN;
         private System.Windows.Forms.TextBox textBoxResult_DSN;
     }
 }
