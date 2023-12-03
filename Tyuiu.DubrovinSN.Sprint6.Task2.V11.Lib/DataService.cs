@@ -20,7 +20,7 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task2.V11.Lib
             {
                 if (x != -1)
                 {
-                    F = Math.Round(Math.Cos(x) / (x + 1) - Math.Cos(x) * 1.3 + 3 * x, 2);
+                    F = Math.Round(Math.Cos((double)x) / ((double)x + 1) - Math.Cos((double)x) * 1.3 + 3 * (double)x, 2);
                     valueArray[count] = F;
                     count++;
                 }
