@@ -29,9 +29,9 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task2.V11
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBoxCondition_DSN = new System.Windows.Forms.GroupBox();
             this.textBoxTask_DSN = new System.Windows.Forms.TextBox();
             this.groupBoxInput_DSN = new System.Windows.Forms.GroupBox();
@@ -41,7 +41,7 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task2.V11
             this.textBoxStartVar_DSN = new System.Windows.Forms.TextBox();
             this.groupBoxResult_DSN = new System.Windows.Forms.GroupBox();
             this.chartGraph_DSN = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.labelResDSN = new System.Windows.Forms.Label();
+            this.labelRes_DSN = new System.Windows.Forms.Label();
             this.dataGridViewFunction_DSN = new System.Windows.Forms.DataGridView();
             this.ColumnsX_DSN = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnF_DSN = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -123,7 +123,7 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task2.V11
             // groupBoxResult_DSN
             // 
             this.groupBoxResult_DSN.Controls.Add(this.chartGraph_DSN);
-            this.groupBoxResult_DSN.Controls.Add(this.labelResDSN);
+            this.groupBoxResult_DSN.Controls.Add(this.labelRes_DSN);
             this.groupBoxResult_DSN.Controls.Add(this.dataGridViewFunction_DSN);
             this.groupBoxResult_DSN.Location = new System.Drawing.Point(502, 12);
             this.groupBoxResult_DSN.Name = "groupBoxResult_DSN";
@@ -134,30 +134,30 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task2.V11
             // 
             // chartGraph_DSN
             // 
-            chartArea5.Name = "ChartArea1";
-            this.chartGraph_DSN.ChartAreas.Add(chartArea5);
-            legend5.Name = "Legend1";
-            this.chartGraph_DSN.Legends.Add(legend5);
+            chartArea1.Name = "ChartArea1";
+            this.chartGraph_DSN.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartGraph_DSN.Legends.Add(legend1);
             this.chartGraph_DSN.Location = new System.Drawing.Point(228, 42);
             this.chartGraph_DSN.Name = "chartGraph_DSN";
-            series5.ChartArea = "ChartArea1";
-            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series5.IsVisibleInLegend = false;
-            series5.Legend = "Legend1";
-            series5.Name = "Series1";
-            this.chartGraph_DSN.Series.Add(series5);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.IsVisibleInLegend = false;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartGraph_DSN.Series.Add(series1);
             this.chartGraph_DSN.Size = new System.Drawing.Size(353, 378);
             this.chartGraph_DSN.TabIndex = 2;
             this.chartGraph_DSN.Text = "chart1";
             // 
-            // labelResDSN
+            // labelRes_DSN
             // 
-            this.labelResDSN.AutoSize = true;
-            this.labelResDSN.Location = new System.Drawing.Point(15, 22);
-            this.labelResDSN.Name = "labelResDSN";
-            this.labelResDSN.Size = new System.Drawing.Size(62, 13);
-            this.labelResDSN.TabIndex = 1;
-            this.labelResDSN.Text = "Результат:";
+            this.labelRes_DSN.AutoSize = true;
+            this.labelRes_DSN.Location = new System.Drawing.Point(15, 22);
+            this.labelRes_DSN.Name = "labelRes_DSN";
+            this.labelRes_DSN.Size = new System.Drawing.Size(62, 13);
+            this.labelRes_DSN.TabIndex = 1;
+            this.labelRes_DSN.Text = "Результат:";
             // 
             // dataGridViewFunction_DSN
             // 
@@ -245,7 +245,7 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task2.V11
         private System.Windows.Forms.TextBox textBoxStartVar_DSN;
         private System.Windows.Forms.GroupBox groupBoxResult_DSN;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartGraph_DSN;
-        private System.Windows.Forms.Label labelResDSN;
+        private System.Windows.Forms.Label labelRes_DSN;
         private System.Windows.Forms.Button buttonSpravka_DSN;
         private System.Windows.Forms.Button buttonPerform_DSN;
         private System.Windows.Forms.DataGridView dataGridViewFunction_DSN;
