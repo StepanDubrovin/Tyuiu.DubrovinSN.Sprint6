@@ -21,7 +21,6 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task5.V3
         string path = @"C:\Task5\InPutFileTask5V3.txt";
         private void buttonDoneClick_DSN_Click(object sender, EventArgs e)
         {
-            double[] numArray = new double[ds.len];
 
             dataGridViewNumsV_DSN.ColumnCount = 2;
             dataGridViewNumsV_DSN.Columns[0].Width = 20;
@@ -31,6 +30,7 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task5.V3
             this.chartFunction_DSN.ChartAreas[0].AxisY.Title = "Ось Y";
             chartFunction_DSN.Series[0].Points.Clear();
 
+            double[] numArray = new double[ds.len];
             numArray = ds.LoadFromDataFile(path);
             for (int i = 0; i < numArray.Length; i++)
             {
