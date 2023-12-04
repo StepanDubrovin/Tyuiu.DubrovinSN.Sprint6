@@ -134,6 +134,7 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task4.V9
             this.textBoxRes_DSN.Location = new System.Drawing.Point(7, 20);
             this.textBoxRes_DSN.Multiline = true;
             this.textBoxRes_DSN.Name = "textBoxRes_DSN";
+            this.textBoxRes_DSN.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.textBoxRes_DSN.Size = new System.Drawing.Size(228, 422);
             this.textBoxRes_DSN.TabIndex = 0;
             // 
