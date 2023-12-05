@@ -225,7 +225,7 @@ namespace Tyuiu.DubrovinSN.Sprint6.Task6.V13
             this.Controls.Add(this.panelIcon_DSN);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Спринт 6 | Таск 6 | Вариант 13 | Дубровин С.Н";
             this.toolTip.SetToolTip(this, "Сведение о программе");
             this.panelIcon_DSN.ResumeLayout(false);
             this.panelTaskText_DSN.ResumeLayout(false);
